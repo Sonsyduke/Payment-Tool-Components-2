@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    background-color: #F3F3F3;
+}
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container{
+    width: 40%;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.profile{
+    display: flex;
+}
+
+.pic{
+    border: 2px solid #1C1C24;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.main-header{
+    margin-bottom: 0;
+}
+
+.email{
+    margin-top: 10px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C1C24;
+    width: 55%;
+    margin: 30px auto;
+    padding: 0 100px;
+    color: #F3F3F3;
+    border-radius: 5px;
+}
+
+@media(max-width: 1200px){
+    .bottom{
+        padding: 0 50px;
+    }
+}
+
+@media(max-width: 680px){
+    .content-container{
+        width: 70%;
+    }
+    .bottom{
+        padding: 0 20px;
+    }
+}
+
+@media(max-width: 350px){
+    .content-container{
+        width: 90%;
+    }
+}
